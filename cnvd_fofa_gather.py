@@ -33,6 +33,7 @@ def fofa_search(kjgs):
     title_unique_ips = {}
     with open('result.txt', 'a+', encoding='utf-8') as file:
         # 遍历JSON数据中的results列表
+        file.write(gs+'\n')
         for result in json_result['results']:
             if len(result) >= 2:  # 确保结果至少包含两个元素，即标题和IP地址
                 title = result[0]  # 获取标题
