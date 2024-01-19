@@ -10,7 +10,9 @@
 
 填入fofa账号的email和API_KEY
 email = 'YOUR_EMAIL'
+
 api_key = 'API_KEY'
+
 将公司名称放入gs.txt文件中，执行该脚本即可。
 
 python3 cnvd_fofa_gather.py
