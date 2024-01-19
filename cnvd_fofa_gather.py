@@ -67,7 +67,7 @@ if __name__ == '__main__':
     for f in open('gs.txt', 'rb'):
         gs = str(f, "utf-8")
         gs = gs.strip()
-        print(gs)
+        print("-----"+gs+"开始收集-----")
         # 去除科技、技术、股份、有限公司等字符
         try:
             if re.search(r'科技', gs):
